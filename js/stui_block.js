@@ -1,5 +1,5 @@
 /*!
- * v3.0 Copyright 2016-2018 http://v.shoutu.cn
+ * v3.0 Copyright 2016-2018
  * Email 726662013@qq.com
  */
 
@@ -287,11 +287,7 @@ var stui = {
 	}	
 };
 
-if(window.console&&window.console.log){  
-	console.log('\u9996\u6d82\u7f51\uff08v.shoutu.cn\uff09\u539f\u521b\u4f5c\u54c1');  
-	console.log('\u4f5c\u8005\uff1a\u5c0f\u4e8c\u54e5\uff0cQQ\uff1a726662013');  
-	console.log("%c\u539f\u521b\u4f5c\u54c1\u8bf7\u5c0a\u91cd\u4f5c\u8005\u52b3\u52a8\u6210\u679c\uff0c\u52ff\u5012\u5356\u5206\u4eab\uff0c\u8c22\u8c22\uff01","color:red");  
-}
+if(window.console&&window.console.log){}
 
 $(document).ready(function() {	
 	if(stui.browser.useragent.mobile){
